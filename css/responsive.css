@@ -2902,8 +2902,7 @@ li .single-footer-contact-info .inner {
 .main-menu .navbar-collapse .navigation li,
 .main-menu .navbar-collapse .navigation li ul li,
 .main-menu .navbar-collapse .navigation li ul li ul li{
-    background: #27282c;
-    border-top: 1px solid #151618;
+
     opacity:1 !important;
     top:0px !important;
     left:0px !important;

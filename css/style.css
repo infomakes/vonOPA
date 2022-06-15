@@ -3709,7 +3709,7 @@ select:focus {
 }
 
 .main-menu.style2 .navigation > li {
-    margin-right: 52px;
+    margin-right: 2px;
 }
 .main-menu.style2 .navigation > li:last-child {
     margin-right: 0px;
@@ -3759,7 +3759,7 @@ select:focus {
 .about-style2-area{
     position: relative;
     display: block;
-    padding: 7% 0 60px;
+    padding: 2% 0 60px;
     background:transparent;
 	background-image: url("../images/bg/s5.png");
  
