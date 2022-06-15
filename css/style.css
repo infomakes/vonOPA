@@ -3761,7 +3761,7 @@ select:focus {
     display: block;
     padding: 7% 0 60px;
     background:transparent;
-	background-image: url("../images/bg/s2.png");
+	background-image: url("../images/bg/s4.png");
  
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
@@ -3777,7 +3777,7 @@ select:focus {
     display: block;
     padding: 2% 0 60px;
     background:transparent;
-	background-image: url("../images/bg/s2.png");
+	background-image: url("../images/bg/s4.png");
  
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
