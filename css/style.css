@@ -2836,7 +2836,7 @@ select:focus {
     width: 100%;
     padding: 9px 20px 9px;
     font-weight: 400;
-    color: #222222;
+    color: #008294;
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
@@ -3651,7 +3651,7 @@ select:focus {
     padding-right: 0;
 }
 .top-style2-right .topbar-social-links li a i{
-    color: #7c7e84;
+    color: #222222;
     font-size: 14px;
     transition: all 500ms ease;
 }
