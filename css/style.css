@@ -6163,7 +6163,169 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     -o-animation-timing-function: linear;
 }
 
+/*** 
+=============================================
+    Services Style4 Area style
+=============================================
+***/
+.services-style4-area {
+    position: relative;
+    display: block;
+   // background: #f6f6f6;
+    padding: 110px 0 108px;
+    z-index: 1;
+}
+.services-style4-area:before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 407px;
+    background: #ffffff;
+    content: "";
+    z-index: -1;
+}
+.single-service-style4 .img-holder{
+    position: relative;
+    display: block;
+    overflow: hidden; 
+    z-index: 1;
+}
+.single-service-style4 .img-holder img {
+    width: 100%;
+    transform: scale(1.01);
+    transition: all 700ms ease;
+}
+.single-service-style4:hover .img-holder img {
+    transform: scale(1.2);    
+}
+.single-service-style4:hover .overlay-style-two{
+	opacity: 1;
+}
+.single-service-style4 .img-holder .overlay-style-two:before{
+	background-color: rgba(40, 41, 46, 0.90);
+}
+.single-service-style4:hover .img-holder .overlay-style-two:before{
+	opacity: 1;
+    transform: perspective(400px) rotateX(0deg);
+    transition: all 700ms ease 100ms;	
+}
+.single-service-style4 .img-holder .overlay-style-two:after{
+	background-color: rgba(40, 41, 46, 0.90);
+}
+.single-service-style4:hover .img-holder .overlay-style-two:after{
+	opacity: 1;
+    transform: perspective(400px) rotateX(0deg);
+    transition: all 700ms ease 300ms;	
+}
 
+.single-service-style4 .text-holder{
+    position: relative;
+    display: block;
+    background: transparent;
+    z-index: 10;
+}
+.single-service-style4 .text-holder .icon-holder {
+    position: relative;
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: -55px auto 0;
+    border: 4px dotted #c9c9c9;
+    background: #ffffff;
+    text-align: center;
+    z-index: 2;
+}
+.single-service-style4 .text-holder .icon-holder span:before {
+    display: block;
+    color: #b3b3b3;
+    font-size: 50px;
+    line-height: 102px;
+}
+
+.single-service-style4 .text-holder .inner{
+    position: relative;
+    display: block;
+    padding: 26px 0px 0px;
+    text-align: center;
+    background: #ffffff;
+    z-index: 1;
+}
+.single-service-style4 .text-holder .inner:before {
+    position: absolute;
+    //top: -55px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #ffffff;
+    content: "";
+    z-index: -1;
+}
+.single-service-style4 .text-holder .inner h3{
+    color: #27282c;
+    font-weight: 600;
+    margin: 0 0 18px;
+}
+.single-service-style4 .text-holder .inner .text {
+    position: relative;
+    display: block;
+    padding: 0 30px 32px;
+}
+.single-service-style4 .text-holder .inner .text p{
+    margin: 0;
+}
+.single-service-style4 .text-holder .inner .read-more a{
+    color: #27282c;
+   // background: #f6f6f6;
+    display: block;
+}
+
+
+.services-style4-content{
+	overflow: hidden;
+}
+.services-style4-content .owl-carousel{
+	display: block;
+	max-width: 370px;
+	width: 100%;
+	margin: 0 auto;
+}
+.services-style4-content .owl-carousel .owl-stage-outer{
+	overflow: visible;
+	padding: 0px 0px 43px;
+}
+.services-style4-content .owl-carousel .owl-stage-outer .owl-item.active .overlay-style-two{
+	opacity: 1;
+}
+.services-style4-content .owl-carousel .owl-stage-outer .owl-item.active .overlay-style-two:before{
+	opacity: 1;
+    transform: perspective(400px) rotateX(0deg);
+    transition: all 700ms ease 300ms;	
+}
+.services-style4-content .owl-carousel .owl-stage-outer .owl-item.active .overlay-style-two:after{
+	opacity: 1;
+    transform: perspective(400px) rotateX(0deg);
+    transition: all 700ms ease 500ms;	
+}
+.services-style4-content .owl-carousel .owl-stage-outer .owl-item.active .single-service-style4 .text-holder .icon-holder {
+    border: 4px dotted #e9212e;
+    transition: all 700ms ease 700ms;
+}
+.services-style4-content .owl-carousel .owl-stage-outer .owl-item.active .single-service-style4 .text-holder .icon-holder span:before {
+    color: #e9212e;
+    transition: all 700ms ease 800ms;
+}
+.services-style4-content .owl-carousel .owl-stage-outer .owl-item.active .single-service-style4 .text-holder .inner .read-more a{
+   // color: #ffffff;
+   // background: #e9212e;
+    transition: all 700ms ease 900ms;
+}
+/*** 
+=============================================
+    Services Style4 Area style ends
+=============================================
+***/
 
 /*** 
 =============================================
