@@ -3681,7 +3681,7 @@ select:focus {
    
     width: 100%;
     z-index: 99999999;
-    background: #ffffff;
+    background: #ffffff00;
     margin: 0;
     animation-name: menu_sticky;
     animation-duration: 0.60s;
@@ -3761,7 +3761,7 @@ select:focus {
     display: block;
     padding: 2% 0 60px;
     background:transparent;
-	background-image: url("../images/bg/bg5.jpg");
+	background-image: url("../images/bg/bg2.jpg");
  
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
@@ -3777,7 +3777,7 @@ select:focus {
     display: block;
     padding: 2% 0 60px;
     background:transparent;
-	background-image: url("../images/bg/bg5.jpg");
+	background-image: url("../images/bg/bg2.jpg");
  
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
