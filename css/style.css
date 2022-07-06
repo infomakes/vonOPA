@@ -528,7 +528,7 @@ li{
 
 
 .boxed_wrapper {
-    background: #fff none repeat scroll 0 0;
+   // background: #fff none repeat scroll 0 0;
     position: relative;
     margin: 0 auto;
     width: 100%;
@@ -944,7 +944,7 @@ select:focus {
     position: relative;
     display: block;
     z-index: 999;
-	background-color: rgba(0,0,0,.9);
+	
 }
 .main-header.header-style1{}
 .header-upper-style1{
