@@ -88,6 +88,14 @@ body {
     line-height: 25px;
     font-weight: 400;
     font-family: 'Rubik', sans-serif;
+	background-image: url("../images/bg/bg24.jpg");
+ 
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #ffffff;
 
 }
 button:focus{
@@ -936,6 +944,7 @@ select:focus {
     position: relative;
     display: block;
     z-index: 999;
+	background-color: rgba(0,0,0,.9);
 }
 .main-header.header-style1{}
 .header-upper-style1{
@@ -3776,7 +3785,7 @@ select:focus {
     position: relative;
     display: block;
     padding: 2% 0 60px;
-    background:transparent;
+   
 	background-image: url("../images/bg/bg24.jpg");
  
     /* Background image is centered vertically and horizontally at all times */
