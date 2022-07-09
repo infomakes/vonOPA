@@ -1,0 +1,20 @@
+<DOCTYPE html>
+<html>
+<body>
+<script>
+let a= 7.8
+let b=57
+let diff = a-b
+</script>
+<h1> this is the sum</h1>
+<script>
+document.write(sum>;
+</script>
+<h1> this is the difference</h1>
+<script>
+<h1> the is the difference</h1>
+<script>
+document.write(diff);
+</script>
+</body>
+</html>
