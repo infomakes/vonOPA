@@ -88,7 +88,7 @@ body {
     line-height: 25px;
     font-weight: 400;
     font-family: 'Rubik', sans-serif;
-	background-image: url("../images/bg/bg24.jpg");
+	background-image: url("../images/bg/bg28.jpg");
  
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
@@ -3770,14 +3770,14 @@ select:focus {
     display: block;
     padding: 2% 0 60px;
     background:transparent;
-	background-image: url("../images/bg/bg24.jpg");
+	
  
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #ffffff;
+   // background-color: #ffffff;
     /* Font Colour */
     color:rgb(0, 0, 0);
 }
