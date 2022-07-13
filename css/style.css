@@ -3765,6 +3765,22 @@ select:focus {
     About Style2 Area style
 =============================================
 ***/
+.about-style2-area-home{
+    position: relative;
+    display: block;
+    padding: 9% 0 60px;
+    background:transparent;
+	
+ 
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   // background-color: #ffffff;
+    /* Font Colour */
+    color:rgb(0, 0, 0);
+}
 .about-style2-area{
     position: relative;
     display: block;
