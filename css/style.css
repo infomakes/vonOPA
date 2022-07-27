@@ -88,7 +88,7 @@ body {
     line-height: 25px;
     font-weight: 400;
     font-family: 'Rubik', sans-serif;
-	background-image: url("../images/bg/bg27.jpg");
+	background-image: url("../images/bg/bg33.jpg");
  
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
@@ -3768,7 +3768,7 @@ select:focus {
 .about-style2-area-home{
     position: relative;
     display: block;
-    padding: 9% 0 60px;
+    /*padding: 9% 0 60px; */
     background:transparent;
 	
  
@@ -3802,7 +3802,7 @@ select:focus {
     display: block;
     padding: 2% 0 60px;
    
-	background-image: url("../images/bg/bg27.jpg");
+	background-image: url("../images/bg/bg33.jpg");
  
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
