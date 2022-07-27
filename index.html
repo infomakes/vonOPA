@@ -25,6 +25,31 @@
     <!-- Fixing Internet Explorer-->
     
     <script src="https://kit.fontawesome.com/553d26f9fe.js" crossorigin="anonymous"></script>
+	
+	
+	
+	
+	
+	
+<script>var keywords = ["awesome", "cool", "fantastic", "incredible"];
+var colours = ["red", "green", "blue", "orange"];
+var count = 1;
+setInterval(function(){    
+    $("span.keyword").fadeOut(400, function(){        
+        $(this).html(keywords[count]).css("color", colours[count]);
+        count++;        
+        if(count == keywords.length)            
+            count = 0;        
+        $(this).fadeIn(400);    
+    });
+}, 2000);
+</script>
+
+
+
+
+
+
 
 </head>
 
@@ -54,7 +79,7 @@
                     <div class="col-xl-6">
                         <div class="about-style2-text">
                             <div class="sec-title">
-                                <div class="title">	Celebrating 35 years<br> of real friendship and connections on Von OPA</div>
+                                <div class="title">	Celebrating 35 years<br> of real <span class="keyword">friendship</span> and connections on Von OPA</div>
                             </div>
                             <div class="text">
                                 <p>Do you live in or around stuttgart? Do you like to learn free cooking lessons and meet new foodie friends? Then join our "von opa" community to celebrate the colors of different nations and cultures!
